@@ -27,7 +27,7 @@ struct basket
 	unsigned short src[Roomnum];
 	unsigned short dst[Roomnum];
 	short  weight[Roomnum];
-	unsigned int idx;
+	unsigned int idx; // need to be changed into unsigned long long if Roomnum is larger than 4
 };
 struct mapnode
 {
